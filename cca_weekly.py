@@ -9,10 +9,10 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, HRFlowable
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib import colors
 
-EMAIL_OPENALEX = "alexis.laurent@mac.com"
-EMAIL_DEST = "alexis.laurent@aphp.fr"
+EMAIL_OPENALEX = "ton email openAlex"
+EMAIL_DEST = "ton email destination"
 PDF_PATH = os.path.expanduser("~/scripts/cca_watch/CCA-news-J8.pdf")
-HEADERS = {"User-Agent": "CCAWatch/1.0 (mailto:alexis.laurent@mac.com)"}
+HEADERS = {"User-Agent": "CCAWatch/1.0 (email openalex)"}
 
 JOURNAL_CACHE = {}
 
@@ -66,8 +66,8 @@ def fetch_openalex_articles(days_back=14):
     params = {
         "filter": filters,
         "per-page": 100,
-        "api_key": "oDEq2IikFeLYwixifll3iF",
-        "mailto": "alexis.laurent@mac.com"
+        "api_key": "TA_CLE_ICI",
+        "mailto": "TON email"
     }
     
     r = requests.get(url, params=params, headers=HEADERS, timeout=30)
