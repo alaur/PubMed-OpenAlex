@@ -66,7 +66,7 @@ def fetch_openalex_articles(days_back=14):
     params = {
         "filter": filters,
         "per-page": 100,
-        "api_key": "oDEq2IikFeLYwixifll3iF",
+        "api_key": "TA_CLE_OpenAlex",
         "mailto": "alexis.laurent@mac.com"
     }
     
