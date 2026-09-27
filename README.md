@@ -55,7 +55,7 @@ mkdir -p ~/.hermes/skills/cca_watch
 
 B. Paramètres clés configurés dans les scripts
 
-⚬ API OpenAlex : utilisation du Polite Pool via le paramètre "mailto": "alexis.laurent@mac.com" et l'en-tête User-Agent dédié pour s'affranchir des limitations de requêtes anonymes (erreurs 429/503).
+⚬ API OpenAlex : mettre ses codes persos
 ⚬ Seuil d'impact : score_float > 9.0 (moyenne de citations sur deux ans de la revue source).
 ⚬ Modèle d'inférence : gemma4:12b-mlx.
 ⚬ Destinataire du rapport : alexis.laurent@aphp.fr.
